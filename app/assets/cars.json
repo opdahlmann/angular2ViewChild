@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "brand": "BMW",
+      "color": "Gray"
+    },
+    {
+      "brand": "Volvo",
+      "color": "Blue"
+    },
+     {
+      "brand": "BMW",
+      "color": "Purple"
+    },
+     {
+      "brand": "Honda",
+      "color": "Yellow"
+    }
+  ]
+}
