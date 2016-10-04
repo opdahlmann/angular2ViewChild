@@ -17,6 +17,8 @@ import { HomeComponent }      from './components/home/home.component';
 import { MenuComponent }      from './components/menu/menu.component';
 import { CarsComponent }      from './components/cars/cars.component';
 import { FilterBoxComponent }      from './components/filterBox/filterbox.component';
+import { CounterParentComponent }      from './components/counter/counter.parent.component';
+import { CounterComponent }      from './components/counter/counter.child.component';
 
 
 @NgModule({
@@ -28,7 +30,7 @@ import { FilterBoxComponent }      from './components/filterBox/filterbox.compon
         routing
     ],
     exports: [ AppComponent ],
-    declarations: [AppComponent, HomeComponent, MenuComponent, CarsComponent, FilterBoxComponent],
+    declarations: [AppComponent, HomeComponent, MenuComponent, CarsComponent, FilterBoxComponent, CounterParentComponent, CounterComponent],
     providers: [LoggerService, CarsService, Title, FilterService],
     bootstrap: [AppComponent],
 })
