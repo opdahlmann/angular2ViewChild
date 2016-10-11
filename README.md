@@ -1,5 +1,5 @@
 # Angular 2 ViewChild
-Comunication between conponents in Angular 2
+Comunication between components in Angular 2
 
 
 
